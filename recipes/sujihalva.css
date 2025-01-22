@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: rgb(31, 31, 59);
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+h1,h2,h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(247, 247, 247);
+}
+
+a:hover {
+    transition: 200ms;
+    background-color: rgb(122, 128, 133);
+    color: white;
+}
+
+p{
+    margin: 0 20px;
+}
